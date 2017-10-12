@@ -7,6 +7,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 class Application {
 
   public static void main(String[] args) {
-    ApplicationContext ctx = new AnnotationConfigApplicationContext(Application.class);
+    ApplicationContext ctx = new AnnotationConfigApplicationContext(ApplicationConfiguration.class);
   }
 }
